@@ -1,4 +1,4 @@
 # test3
-In [2] : url = 'https://api.patentsview.org/patents/query?q={"assignee_organization":"Harvard university"}'
-In [3] : r = requests.get(url)
-
+url = 'https://api.patentsview.org/patents/query?q={"assignee_organization":"harvard university"}'
+r=requests.get(url)
+json = r.json()  # Convert response to JSON format
